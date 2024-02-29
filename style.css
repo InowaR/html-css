@@ -1,3 +1,23 @@
+a {
+    text-decoration: none;
+}
+
+.main-title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.main-paragraph {
+    text-align:justify;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -5,10 +25,24 @@
     padding: 5px;
 }
 
+.menu {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 .item {
+    text-align: center;
     max-width: 300px;
-    background-color: #dbdbdd;
     padding: 15px;
+}
+
+.item-title {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
 }
 
 .item-image {
