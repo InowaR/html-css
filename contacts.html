@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-header">
+            <button class="menu" onclick="mainPageClick()">Главная</button>
+        </div>
+        <div class="right-header">
+            <button class="menu" onclick="catalogPageClick()">Каталог</button>
+            <button class="menu" onclick="contactsPageClick()">Контакты</button>
+        </div>
+    </div>
+    <div class="contacts">
+        <form action="#">
+            <input id="placeholder1" class="contacts-area" type="text" required placeholder="Введите имя">
+            <input id="placeholder2" class="contacts-area" type="email" required placeholder="xxx@xxx.xx">
+            <div class="contacts-form">
+                <button class="contacts-button" onclick="clearText()" type="submit">Отправить</button>
+            </div>
+        </form>  
+    </div>
+    <script>
+        function mainPageClick() {
+            window.location.href = "./index.html";
+        }
+
+        function catalogPageClick() {
+            window.location.href = "./catalog/catalog.html";
+        }
+
+        function contactsPageClick() {
+            window.location.href = "./contacts.html";
+        }
+
+        function clearText() {
+            let p1 = document.getElementById("placeholder1");
+            let p2 = document.getElementById("placeholder2");            
+            p1.value = '';
+            p2.value = '';            
+        }
+    </script>
+</body>
+</html>

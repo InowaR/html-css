@@ -13,7 +13,7 @@
         </div>
         <div class="right-header">
             <button class="menu" onclick="catalogPageClick()">Каталог</button>
-            <button class="menu">Контакты</button>
+            <button class="menu" onclick="contactsPageClick()">Контакты</button>
         </div>
     </div>
     <h1 class="main-title">Каталог</h1>
@@ -41,9 +41,12 @@
         }
 
         function catalogPageClick() {
-            window.location.href = "catalog.html";
+            window.location.href = "./catalog.html";
         }
 
+        function contactsPageClick() {
+            window.location.href = "../contacts.html";
+        }        
     </script>
 </body>
 </html>
