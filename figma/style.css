@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/Travel\ Time.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-block {
+    margin-top: 73px;
+    margin-left: 115px;
+    margin-right: 155px;
+    margin-bottom: 179px;
+    /* border: 3px solid #fff; */
+    width: 1170px;
+    height: 772px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-block {
+    margin-top: 73px;
+    width: 1170px;
+    height: 39px;
+    /* border: 3px solid #fff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+
+.middle-block {
+    /* border: 3px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 96px;
+    color: #fff;
+}
+
+.paragraph {
+    font-family: var(--font-family);
+    font-weight: 275;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.join-button {
+    border: 1px solid #00b43d;
+    border-radius: 8px;
+    padding: 16px 28px;
+    width: 191px;
+    height: 60px;
+    box-shadow: 0 0 0 4px #fee4e2, 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+    background: #00b43d;
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 117%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    filter: brightness(80%);
+}
